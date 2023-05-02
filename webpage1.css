@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+} /* so the page looks neat ****/
+
+body{
+    padding: 10px;
+    background: linear-gradient(#5ebad6, lightcyan,#84f584);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(#5ebad6, lightcyan);
+}
+ h1{
+    font-size: 50px;
+    text-shadow: 2px 3px 2px #e9a0a0;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+.navbar {
+    background-color: #1b1818fa;
+    overflow: hidden;
+}
+
+/* this is styling the links ****/
+.navbar a { 
+    display: inline-block;
+    font-weight: 700px;
+    color: #fff8f8;
+    padding: 10px 10px;
+    text-decoration: none;
+  
+}
+
+
+/* this changes the color when mouse is on it ****/
+.navbar a:hover{
+    background-color: #6ea6c7;
+    box-shadow: 12px 4px 5px gray;
+}
+
+/* this is for the text in the top part*************/
+.Orders{
+    font-weight: 500;
+    font-size: 22px;
+    color: #b94949;
+    text-indent: 5px;
+}
+
+ h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #b94949;
+}
+
+/*animation of the text*******/
+.big{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+    justify-content: center;
+    display: inline-block;
+    color: #271c05;
+    text-shadow: -13px -3px 4px #2d78aa;
+    animation:switch 5s 1s infinite ;
+    background-clip:border-box;
+
+ }
+ @keyframes switch{
+    0%{color: #f7fa35; }
+    20%{color: #1e0350;}
+    50%{color: deeppink;}
+    80%{color: #eff785;}
+    100%{color: green;}
+ }
+ .c {
+    color: red;
+    opacity: 1;
+    position: relative;
+    animation-name: c;
+    animation-duration: 3s;
+    animation-iteration-count:5;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  @keyframes c {
+    0% { bottom: -700px; font-size: 90px;color:#f7fa35 ;}
+    25% { font-size: 70px;color:  #1e0350;}
+    50% { font-size: 50px;color: deeppink ;}
+    75% { font-size: 35px;color: green;}
+    100% {bottom: 0px; font-size: inherit;}
+  }
+
+ 
+
+ input[type='text'],input[type='email']{
+    padding: 5px;
+    border: 2px solid blue;
+    width: 300px;
+ }
+ input{
+    font-weight: 900;
+    color: #b94949;
+ }
+
+ input[type='button']{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 22px;
+}
+input[type='button']:hover{
+    background-color: white;
+    color: black;
+
+}
+p{
+    font-weight: 400;
+}
